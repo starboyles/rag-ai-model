@@ -24,10 +24,11 @@ const ai = genkit({
 });
 
 const firebaseConfig = {
-  apiKey: process.env.firebase_apiKey,
+  apiKey: process.env.firebase_apiKey, 
   authDomain: process.env.firebase_authDomain,
   projectId: process.env.firebase_projectId,
   storageBucket: process.env.firebase_storageBucket,
   messagingSenderId: process.env.firebase_messagingSender_Id,
   appId: process.env.firebase_app_Id,
 };
+
